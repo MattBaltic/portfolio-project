@@ -137,6 +137,6 @@ MEDIA_URL = '/media/' #'media' we can change for any word ex coolstaff, picturee
 # 'media' in MEDIA_URL can have different name than in the MEDIA_ROOT
 
 try:
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     pass
